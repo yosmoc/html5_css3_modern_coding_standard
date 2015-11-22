@@ -59,6 +59,9 @@ a:link, a:visited, a:hover, a:active {
   background-color: #d03c56;
   color: #fff;
 }
+.hidden {
+  display: none;
+}
 .wrapper {
   width: 970px;
   margin: 30px auto 40px;
