@@ -94,6 +94,7 @@ a:link, a:visited, a:hover, a:active {
 }
 .hot-topic .desc {
   color: #ddc;
+  font-size: 12px;
 }
 .hot-topic .date {
   position: absolute;
