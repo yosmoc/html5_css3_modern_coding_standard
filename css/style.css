@@ -142,10 +142,12 @@ a:link, a:visited, a:hover, a:active {
   margin-bottom: 30px;
   list-style-type: none;
 }
-.scroll-list .scroll-item {
+.scroll-list .scroll-item a {
   display: block;
   padding: 10px 15px;
   color: #333;
+  /* avoid changing line width by inserting the space*/
+  font-size: 0;
   transition: background-color 0.1s;
 }
 .scroll-list .scroll-item:nth-of-type(even) a {
