@@ -5,7 +5,7 @@ html {
 body {
   color: #333;
   font-size: 1.2rem;
-  font-family: "Hiragino Kaku Gothic ProN", Meiryo, sans-serif;
+  font-family: "Hiragino Kaku Gothic ProN",  Meiryo,  sans-serif;
 }
 *, *::before, *::after {
   box-sizing: border-box;
@@ -86,11 +86,11 @@ a:link, a:visited, a:hover, a:active {
   background-color: #2d3d54;
   line-height: 1.6;
 }
-.hot-topic .title{
+.hot-topic .title {
   margin-bottom: 15px;
   color: #fff;
   font-weight: normal;
-  font-size: 2.0rem
+  font-size: 2.0rem;
 }
 .hot-topic .desc {
   color: #ddc;
