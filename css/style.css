@@ -159,13 +159,31 @@ a:link, a:visited, a:hover, a:active {
 .scroll-list .date {
   display: inline-block;
   width: 19%;
+  letter-spacing: 1px;
+  font-weight: bold;
+  font-size: 1.0rem;
 }
 .scroll-list .category {
   display: inline-block;
   width: 8%;
+  border-radius: 5px;
+  background-color: #d03c56;
+  color: #fff;
+  text-align: center;
+  letter-spacing: 1px;
+  font-size: 1.0rem;
+  line-height: 16px;
 }
 .scroll-list .title {
   display: inline-block;
   width: 73%;
   padding-left: 15px;
+  overflow: hidden;
+  /*insert ... instead of line changeing*/
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  font-size: 1.2rem;
+}
+.scroll-list .category.news {
+  background-color: #2c3c53;
 }
