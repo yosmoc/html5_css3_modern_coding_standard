@@ -136,3 +136,9 @@ a:link, a:visited, a:hover, a:active {
   letter-spacing: 1px;
   font-size: 1.6rem;
 }
+.scroll-list {
+  max-height: 220px;
+  overflow-y: auto;
+  margin-bottom: 30px;
+  list-style-type: none;
+}
