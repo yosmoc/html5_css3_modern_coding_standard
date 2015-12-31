@@ -142,3 +142,28 @@ a:link, a:visited, a:hover, a:active {
   margin-bottom: 30px;
   list-style-type: none;
 }
+.scroll-list .scroll-item {
+  display: block;
+  padding: 10px 15px;
+  color: #333;
+  transition: background-color 0.1s;
+}
+.scroll-list .scroll-item:nth-of-type(even) a {
+  background: url('../images/bg-slash.gif');
+}
+.scroll-list .scroll-item a:hover {
+  background-color: #fafaf8;
+}
+.scroll-list .date {
+  display: inline-block;
+  width: 19%;
+}
+.scroll-list .category {
+  display: inline-block;
+  width: 8%;
+}
+.scroll-list .title {
+  display: inline-block;
+  width: 73%;
+  padding-left: 15px;
+}
